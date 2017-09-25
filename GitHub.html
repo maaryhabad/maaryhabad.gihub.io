@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- para dar print num trecho de código, usar <code> -->
+<html lang = "pt-br"> <!-- Diz para o navegador de que tipo é o seu arquivo e dá início ao trecho html -->
+    <head> <!-- Informações iniciais do arquivo -->
+        <meta charset="UTF-8"> <!-- Para evitar problemas de acentuação -->
+        <title> Resumo HTML </title> <!-- Dá o título para a página -->
+        <link rel="icon" href="img/icon.png"> <!-- Para colocar ícone na aba do navegador, pode não funcionar no Chrome ~funciona se o ícone for 32x32~ -->
+        <link href="https://fonts.googleapis.com/css?family=Cookie|Lato|Montserrat" rel="stylesheet">
+
+        <link rel="stylesheet" href="CSS/Conteudo.css"> <!-- link para o arquivo css -->
+    </head>
+
+    <body> <!-- Dá início ao corpo da estrutura do site -->
+    <header>
+       <nav>
+            <h1 class="logo"><span class="re"> {re}</span><span class="titulo">sumão </span></h1><!-- id título é pra referência no arquivo css -->
+            <ul id ="menu">
+                <li><a href="Resumo HTML.html" target="_self">Home</a></li> <!-- a href é pra redirecionamento, _self na mesma aba e _blank em uma nova aba -->
+                <li><a href="TAG.html" target="_self">TAG's e Fontes</a></li> <!-- se precisar de mais itens no menu, é só repetir o código de cima :D -->
+                <li><a href="Listas.html" target="_self">Listas e Tabelas</a></li>
+                <li><a href="Formulario.html" target="_self">Formulário</a></li>
+                <li><a href="Botoes.html" target="_self">Botões</a></li>
+                <li><a href="CSS.html" target="_self">CSS Basics</a></li>
+                <li><a href="GitHub.html" target="_self">GitHub </a></li>
+                <li><a href="Links.html" target="_self">Links Úteis</a></li> 
+                <li><a href="Contato.html" target="_self">Contato</a></li>
+                <li><a href="GitHub.html" target="_self"> GitHub </a></li>
+            </ul>
+        </nav>
+        </nav>
+    </header>
+
+        
+        
+        <!-- a expressão ../ é quando você precisa de uma imagem num projeto que contenha mais de uma página -->
+        <!-- Width é largura e Height é altura, pode ser mostrada em % ou em pixels-->
+        
+        
+       
+            <div class="conteudo">
+                <form action="/#"> <!-- em action a gente coloca o link em php que o formulário vai ficar armazenado // ou email -->
+                <h2 class ="regioes"> GitHub </h2>
+
+                <p> GitHub é uma ferramenta utilizada para versionamento de arquivos e é conhecido como a grande rede social de desenvolvimento de códigos. Ele funciona como uma nuvem, 
+                que guarda o seu trabalho para que você possa utilizá-lo em qualquer lugar. Além disso, ele também é bastante conhecido por ser uma ferramenta de trabalho em equipe,
+                assim, várias pessoas podem mexer no mesmo projeto, sem ter que copiar as versões, podendo fazer isso remotamente.</p>
+
+                <h2 class ="regioes">Passo a Passo</h2>
+                <ol> 
+                    <li>Configurações Iniciais </li>
+                        <ol>
+                            <li>git config --global user.name "Seu nome aqui"</li>
+                            <li>git config --global user.email "Seu email aqui"</li>
+                        </ol>
+                    <li>Cd + nome da pasta (para entrar na pasta)</li>
+                    <li>git init</li>
+                    <li>git add .</li>
+                    <li>git commit -m "nome do commit" </li>
+                    <li>git remote add origin + link do repositório (que você pega no site do GitHub) </li>
+                    <li>git push origin master</li>
+                </ol>
+                
+        
+            </div>   
+
+    <footer>
+        <h2 id = "pe"> Made with luv ~♥♥♥~ by <a href="mailto:maryh.abad@gmail.com" target="_blank"> Mariana Abad</a> - 2017 </h2>
+    </footer>
+
+    </body>
+
+</html>

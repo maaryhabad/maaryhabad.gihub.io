@@ -1,0 +1,162 @@
+
+body {
+    background-color: rgba(102, 0, 51, 0.4);
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+    font-family: "Montserrat", "Lato"; /*aqui você pode deixar quantas você quiser.*/
+    color: black;
+    padding-top: 250px;
+}
+ul{
+    padding:0;
+    display: block;
+    margin: 0 auto;
+    width: 68%;
+}
+#menu {
+    padding: 25px 0 22px 13px;
+    border-style: double; /* solid, dashed, dotted, double, groove, outset, inset, none isso também pode ficar como 5px dashed yellow [para fazer tudo numa linha só]*/ 
+    border-width: 10px;
+    border-color: black;
+}
+header {
+    position: fixed;
+    width:100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+}
+.logo {
+    background-color: rgba(255,255,255,0.4);
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+nav ul li a{
+    color: #660033;
+    text-decoration: none;
+    padding-right: 10px;
+    
+}
+nav ul li a:hover{
+    color: lightgray;
+}
+table {  /*para comentários em CSS você seleciona + ctrl + : || Aqui você diz qual item do seu html você está alterando*/
+    background-color: white;
+}
+
+.regioes {
+    font-weight: bold;
+    font-family: "Lato";
+    font-size: 45px;
+    color: #660033;
+}
+
+
+
+.tituloTabela {
+    background-color: #660033;
+    font-weight: bold;
+    border: 5px groove black;
+    color: white;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+footer {
+    font-family: "Cookie";
+    color: #660033;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    padding-left: 0px;
+}
+
+.re { 
+    color:#660033;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: "Cookie";
+    line-height: 1px;
+}
+
+.titulo { /* só pode ter uma no arquivo, casos bem específicos. Para casos gerais, utiliza-se class */ 
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    font-family: "Cookie";
+    
+}
+h1 {
+    text-align: center;
+}
+
+.conteudoTabela {
+    color: black;
+}
+
+.re.titulo {
+    text-align: center;
+}
+
+.texto {
+    font-size: 20px;
+    max-width: 1200px;
+}
+
+table tbody tr td a{
+    color: #660033;
+    text-decoration: none;
+    padding-right: 10px;
+}
+table tbody tr td a:hover{
+    color: black;
+    font-weight: bold;
+}
+#menu {
+    text-align:center;
+}
+footer a{
+    color: lightslategray;
+    text-decoration: none;
+    padding-right: 10px;
+    
+}
+footer a:hover{
+    color: #660033;
+}
+.codigo {
+    border: none;
+}
+p, li{
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 1200px;
+}
+.box-center {
+    border: 2px solid black;
+    text-align: center;
+    width: 15%;
+    background-color: floralwhite;
+    border-radius: 10%;
+}
+.box-left {
+    border: 2px solid black;
+    text-align: left;
+    width: 15%;
+    background-color: floralwhite;
+    border-radius: 10%;
+}
+.conteudo {
+    padding-left: 100px;
+}
+/*.profile {
+    size: 20%;
+    border-radius: 20px;
+}*/
